@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@500&family=Bad+Script&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+main{
+	width:55%;
+	height: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(234,237,247);
+	background-image: url(../img/logoyzma.png);
+	background-size: 200px, 200px;
+	background-repeat: no-repeat;
+	background-position: 90% 15%;
+}
+header{
+	width: 100%;
+	height:100px;
+	background-image: url(../img/fondouno.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+section{
+	width: 100%;
+	height: 350px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/pocion.png);
+	background-repeat: no-repeat;
+	background-position: 110% 70%;
+	background-size: 250px 300px, 200px 270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+article{
+	width: 90%;
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2%;
+
+}
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto; 
+	clear: both;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+
+}
+a{
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF
+}
+li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	text-align: left;
+}
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30pt;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13pt;
+	color: #9b59b6;
+	margin: 1%;
+}
+#logoup{
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/logoup.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#yzma{
+	width: 25%;
+	height: 250px;
+	background-image: url(../img/yzmaa.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 6%;
+	float: left;
+	margin-top: 3%;
+	margin-right: 2%;
+	box-shadow: 5px 5px 0 #333333;
+}
+#nombre{
+	width: 100%;
+	height: 20px;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt; 
+	text-align: center;
+	padding-top: 1%;
+
+}
+#opacidad{
+	width: 50%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	background-color: rgba(20, 20, 20, .3);
+
+}
+#iconopersona{
+	width: 10%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconouno.png);
+	background-size: cover;
+}
+#iconotr{
+	width: 7%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconocuatro.png);
+	background-size: cover;
+}
+#iconoed{
+	width: 9%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconodos.png);
+	background-size: cover;
+}
+#pp{
+	width: 55%;
+	height: 270px;
+	margin-left: auto;
+	float: right;
+	margin-right: 12%;
+}
+#habil{
+	width: 90%;
+	height: 350px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding: 3%;
+	padding-left: 5%;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid; #82589F;
+	text-align: left;
+
+}
+#habil ul li{
+	text-decoration: none;
+}
+
+.columnas{
+	width: 90%;
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 1px solid #82589F;
+	text-align: left;
+}
+
+.opa{
+	background-color: rgba(149,135,156,1);
+	padding: 2%;
+	color: #FFFFFF;
+	box-shadow: 5px 5px 0 #333333;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+}
